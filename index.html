@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>TravelGuider</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+		crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" integrity="sha384-feJI7QwhOS+hwpX2zkaeJQjeiwlhOP+SdQDqhgvvo1DsjtiSQByFdThsxO669S2D"
+		crossorigin="anonymous"></script>
+	</head>
+	<body id="top">
+		<header>
+			<div class = "mynav">
+				<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+					<div class="container">
+						<a class="navbar-brand " href="#top">Travel Guider</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarResponsive">
+							<ul class="navbar-nav ml-auto ">
+								<li class="nav-item">
+									<a class="nav-link" href="#banner">About</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#bxs">PlacesToVisit</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#footer">Contact</a>
+								</li>
+								<li class="nav-item">
+									<div class="input-group mb-3">
+										<input type="search"  class="form-control" placeholder="Type your destination" aria-label="Recipient's username" aria-describedby="basic-addon2">
+										<div class="input-group-append">
+									    <button  id= 'search-btn' class="btn btn-outline-secondary" type="button">Search</button>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<section id="banner" >	
+				<div class="header-info">
+					<h1>Travel Guider</h1>
+					<p>Explore the world best places you have dreamed of <br/>
+						visiting and choose the best one for you to go .</p>
+
+				</div>
+						
+					</section>
+		</header>
+
+		<div id="main">
+			<div class="inner">
+				<div class="myboxes" id = "bxs">
+					<div class="box">
+						<div class="image fit"><img src="images/bora.jpg"/></a>
+							<div class="inner">
+								<h3>Bora Bora</h3>
+								<p>Bora Bora is a place where you can mix slow-paced sun-and-sand holidays with action-packed adventures. Diving, snorkelling, lagoon tours, hiking and parasailing are available. </p>
+								<a  id = "play-video1" class="button fit">Show more</a>
+								<div id='video-to-display1'></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="box">
+						<div class="image fit"><img src="images/Santorini.jpg"/></a>
+							<div class="inner">
+								<h3>Santorini</h3>
+								<p>Santorini is one of the most sought after places for a romantic getaway, since there are not so many places, where you can enjoy exquisitely clear waters while perched on the rim of an active volcano!</p>
+								<a  id = 'play-video2' class="button style2 fit">Show more</a>
+								<div id='video-to-display2'></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="box">
+						<div class="image fit"><img src="images/plitvice-lakes.jpg"/></a>
+							<div class="inner">
+								<h3>Plitvice lakes</h3>
+								<p>The beauty of the Plitvice Lakes National Park lies in its sixteen lakes, inter-connected by a series of waterfalls, and set in deep woodland populated by deer, bears, wolves, boars and rare bird species.</p>
+								<a href="https://youtu.be/s6zR2T9vn2c" class="button style3 fit">Show more</a>
+								<div id='video-to-display3'></div>
+							</div>
+						</div>
+					</div>	
+
+					<div class="box">
+						<div class="image fit"><img src="images/paris.jpg"/>
+							<div class="inner">
+								<h3>Paris</h3>
+								<p>Paris is one of the world’s few really legendary capitals. The French capital has taken a pro-active approach to enhancing its appeal by undertaking a quality-focused and sustainable development strategy based on constant innovation.</p>
+								<a href="https://www.youtube.com/watch?v=UfEiKK-iX70" class="button style3 fit">Show more</a>
+								<div id='video-to-display4'></div>
+							</div>
+						</div>
+					</div>	
+
+					<div class="box">
+						<div class="image fit"><img src="images/barcellona.jpg"/>
+							<div class="inner">
+								<h3>Barcelona</h3>
+								<p>Barcelona sited between the sea and the mountains, has found a formidable balance: a foot in the traditional things and the other in the avant-garde. Barcelona is a cosmopolitan, modern and avant-garde city in Spain.</p>
+								<a href="https://www.youtube.com/watch?v=L_bgTJkFk3k" class="button style2 fit" >Show more</a>
+								<div id='video-to-display5'></div>
+							</div>
+						</div>
+					</div>	
+
+					<div class="box">
+						<div class="image fit"><img src="images/newyork.jpg"/>
+							<div class="inner">
+								<h3>New York</h3>
+								<p>New York is a city that has a lot to offer to everyone. There will always be more independent galleries to explore, unknown streets to walk, bars to drink in and restaurants in which to while away the hours.</p>
+								<a href="https://www.youtube.com/watch?v=TmDKbUrSYxQ" class="button fit">Show more</a>
+								<div id='video-to-display6'></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<footer id="footer">
+			<div class="inner">
+				<h2>More about us</h2>
+				<p>Pellentesque eleifend malesuada efficitur. Curabitur volutpat dui mi, ac imperdiet dolor tincidunt nec. Ut erat lectus, dictum sit amet lectus a, aliquet rutrum mauris. Etiam nec lectus hendrerit, consectetur risus viverra, iaculis orci. Phasellus eu nibh ut mi luctus auctor. Donec sit amet dolor in diam feugiat venenatis. </p>
+				<ul class="icons">
+					<li><a><span class="label">Twitter</span></a></li>
+					<li><a><span class="label">Facebook</span></a></li>
+					<li><a><span class="label">Instagram</span></a></li>
+					<li><a><span class="label">Email</span></a></li>
+				</ul>
+				<p class="copyright">Travel Guider copyright &copy;</p>
+			</div>
+		</footer>
+
+		<div id="myModal" class="modal">
+
+				<span id='close-btn' class="close">&times;</span>
+				<!-- <img src="images/Santorini.jpg" class="modal-content" id="img01"> -->
+				<div id="caption"></div>
+			  </div>
+
+			<script src="assets/js/scrolling-nav.js"></script>
+			<script src="assets/js/iFrameplay.js"></script>
+			<script src = 'assets/js/ajaxMajem.js'></script>
+			<script src = 'assets/js/searchBar.js'></script>
+			<!-- <script src = 'assets/js/fetch.js'></script> -->
+			<!-- <script src = 'assets/js/cache.js'></script> -->
+			
+		
+
+	</body>
+</html>
