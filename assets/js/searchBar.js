@@ -1,10 +1,22 @@
 var searchBarModel =function(){
+
     var $modal = $('#myModal');
     var modal = document.getElementById('myModal');
     var $searchBtn = $('#search-btn');
     var $span =$('#close-btn');
 
+    $('#search-box').keypress(function(e){
+        if(e.which === 13){
+            $searchBtn.click();
+        }
+    });
+
     $searchBtn.on( 'click',function() {
+        triggerEvent();
+
+    });
+
+    var  triggerEvent = function() {
         var $searchstring  = $('.form-control');
         $searchstring.focus();
         var $q = $searchstring.val();
@@ -33,8 +45,7 @@ var searchBarModel =function(){
                 });
             }
         });
-
-    });
+    };
 
 
     $span.on( 'click',function() {
@@ -51,6 +62,7 @@ var searchBarModel =function(){
             //modal.style.display = "none";
         }
     }
+
 }();
 
 
